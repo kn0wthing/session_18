@@ -125,9 +125,9 @@ def main():
     # checkpoint_zip_path = "/kaggle/input/phi2-checkpoints/checkpoint-5.zip"  # Adjust this
     # checkpoint_dir = f"/content/{output_dir}/checkpoint-5"  # Extracted path
 
-    checkpoint_dir = f"/content/phi2-assistant/phi-ckpt-300"  # Extracted path
+    checkpoint_dir = f"/content/phi2-assistant/phi-ckpt"  # Extracted path
     # Define log file path
-    log_file = "/content/training_logs.jsonl"
+    log_file = "/content/logs.txt"
 
     # Debug: Check checkpoint
     if os.path.exists(checkpoint_dir):
